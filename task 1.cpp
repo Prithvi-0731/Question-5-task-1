@@ -2,9 +2,9 @@
 using namespace std;
 int main(void) {
    char str[] = "A string.";
-   char *pc = str;
-   cout << str[0] <<' '<< *pc <<' '<<pc[3]<<"\n";
-   pc += 2;
-   cout <<*pc<<' '<< pc[2] <<' '<< pc[5];
+   char *pointer = str;
+   cout << str[0] <<' '<< *pointer <<' '<<pointer[3]<<"\n";
+   pointer += 2;
+   cout <<*pointer<<' '<< pointer[2] <<' '<< pointer[5];
    return 0;
 }
